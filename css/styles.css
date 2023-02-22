@@ -1,0 +1,78 @@
+@import url(reset.css);
+
+.container{
+    width: 1200px;
+    margin: 100px auto;
+}
+
+.outline{
+    outline: 1px solid grey;
+}
+
+.float{
+    float: left;
+}
+
+
+.clearfix::after{
+     content: '';
+     clear: both;
+     display: block;
+}
+
+.box{
+    /* padding: 2px; */
+    text-align: center;
+}
+
+.w_400{
+    width: 400px;
+}
+
+.w_800{
+    width: 800px;
+}
+
+.h_400{
+    height: 400px;
+}
+
+.h_200{
+    height: 200px;
+}
+
+.h_100{
+    height: 100px;
+}
+
+.h_133{
+    height: 133.3px;
+}
+
+.green{
+    background-color: greenyellow;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: rgb(35, 205, 248);
+}
+
+.deep_blue{
+    background-color: rgb(35, 35, 194);
+}
+
+.pink{
+    background-color: pink;
+}
+
+.violet{
+    background-color: blueviolet;
+}
